@@ -10,15 +10,15 @@ export default function Intro() {
     return (
         <div >
             <Header />
-                <div className="h-screen flex flex-col items-center justify-center gap-12 ">
+                <div className="h-screen flex flex-col items-center justify-center gap-12 dark:bg-slate-800 duration-500">
                     <div>
-                        <h2 className="text-6xl flex hover:scale-150 duration-200">Hello <img src={Hand} alt="hello" width="60px" /> ,</h2>
+                        <h2 className="text-6xl flex hover:scale-150 duration-200 dark:text-white duration-500">Hello <img src={Hand} alt="hello" width="60px" /> ,</h2>
                     </div>
                     <div>
-                        <h2 className="text-6xl hover:scale-150 duration-200">I'm Axel Siriez</h2>
+                        <h2 className="text-6xl hover:scale-150 duration-200 dark:text-white duration-500">I'm Axel Siriez</h2>
                     </div>
                     <div>
-                        <h3 className="text-3xl hover:scale-150 duration-200">Front-End Developer</h3>
+                        <h3 className="text-3xl hover:scale-150 duration-200 dark:text-white duration-500">Front-End Developer</h3>
                     </div>
                     <div>
                         <ul className="flex gap-12">
