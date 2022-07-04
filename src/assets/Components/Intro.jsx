@@ -3,32 +3,35 @@ import Hand from "../img/hand.png"
 import Facebook from "../img/facebook.png"
 import Linkedin from "../img/linkedin.png"
 import Github from "../img/github.png"
-import PageNext from "./pageNext";
-
+import Profil from "../img/profil.jpg"
 
 export default function Intro() {
     return (
         <div >
             <Header />
-                <div className="h-screen flex flex-col items-center justify-center gap-12 dark:bg-slate-800 duration-500">
-                    <div>
-                        <h2 className="text-6xl flex hover:scale-150 duration-200 dark:text-white duration-500">Hello <img src={Hand} alt="hello" width="60px" /> ,</h2>
-                    </div>
-                    <div>
-                        <h2 className="text-6xl hover:scale-150 duration-200 dark:text-white duration-500">I'm Axel Siriez</h2>
-                    </div>
-                    <div>
-                        <h3 className="text-3xl hover:scale-150 duration-200 dark:text-white duration-500">Front-End Developer</h3>
-                    </div>
-                    <div>
-                        <ul className="flex gap-12">
-                            <li><a href="#"><img src={Facebook} alt="facebook-logo" width="30px" className="opacity-50 hover:opacity-100" /></a></li>
-                            <li><a href="#"><img src={Linkedin} alt="linkedin-logo" width="30px" className="opacity-50 hover:opacity-100" /></a></li>
-                            <li><a href="#"><img src={Github} alt="github-logo" width="30px" className="opacity-50 hover:opacity-100" /></a></li>
-                        </ul>
-                    </div>
-                    <PageNext />
+            <div className="h-screen absolute flex items-center left-28">
+                <div className="border-solid border-slate-800 border-4 rounded-full dark:border-white ">
+                    <img src={Profil} width="400" alt="photo de profil" className="rounded-full" />
                 </div>
+            </div>
+            <div className="h-screen flex flex-col items-center justify-center gap-8 dark:bg-slate-800 duration-500">
+                <div>
+                    <h2 className="text-6xl flex hover:scale-150 hover:bg-slate-200 hover:dark:bg-slate-600 p-4 rounded-xl duration-300 dark:text-white">Hello <img src={Hand} alt="hello" width="60px" /> ,</h2>
+                </div>
+                <div>
+                    <h2 className="text-6xl hover:scale-150 hover:bg-slate-200 hover:dark:bg-slate-600 p-4 rounded-xl dark:text-white duration-300">I'm Axel Siriez</h2>
+                </div>
+                <div>
+                    <h3 className="text-3xl hover:scale-150 hover:bg-slate-200 hover:dark:bg-slate-600 p-4 rounded-xl dark:text-white duration-300">Front-End Developer</h3>
+                </div>
+                <div>
+                    <ul className="flex gap-12">
+                        <li className="rounded-xl p-2"><a href="#"><img src={Facebook} alt="facebook-logo" width="30px" className="opacity-50 hover:opacity-100" /></a></li>
+                        <li className="rounded-xl p-2"><a href="#"><img src={Linkedin} alt="linkedin-logo" width="30px" className="opacity-50 hover:opacity-100" /></a></li>
+                        <li className="rounded-xl p-2"><a href="#"><img src={Github} alt="github-logo" width="30px" className="opacity-50 hover:opacity-100" /></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     )
 }
