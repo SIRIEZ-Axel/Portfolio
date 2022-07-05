@@ -11,7 +11,7 @@ export default function Header(ref) {
     }
     return (
         <header>
-            <nav className="absolute z-30 w-full">
+            <nav className="fixed z-30 w-full">
                 <Nav />
                 <ul className="flex justify-evenly p-8 bg-gradient-to-r from-cyan-500 to-blue-500">
                     <li className=" text-3xl cursor-pointer"

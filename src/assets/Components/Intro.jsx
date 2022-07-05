@@ -10,7 +10,7 @@ export default function Intro() {
         <div >
             <Header />
             <div className="h-screen absolute flex items-center left-28">
-                <div className="border-solid border-slate-800 border-4 rounded-full dark:border-white ">
+                <div className="border-solid border-slate-800 border-4 rounded-full dark:border-white duration-500 ">
                     <img src={Profil} width="400" alt="photo de profil" className="rounded-full" />
                 </div>
             </div>
