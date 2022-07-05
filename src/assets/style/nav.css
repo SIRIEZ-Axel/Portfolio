@@ -1,0 +1,36 @@
+nav ul li {
+    position: relative;
+    z-index: 1;
+    padding: 12px;
+    transition: all ease .3s;
+    color: rgb(212, 212, 212);
+}
+
+nav ul li:hover {
+    color: white;
+}
+
+nav ul li:after {
+    transition: .3s;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '.';
+    background: rgb(3, 97, 160);
+    border-radius: 8px;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+nav ul li:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
