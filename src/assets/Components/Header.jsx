@@ -8,7 +8,7 @@ export default function Header() {
         if (window.scrollY < scrollbox) {
             scroll.style.top = 0;
         } else {
-            scroll.style.top = "-130px";
+            scroll.style.top = "-150px";
         }
         scrollbox = window.scrollY;
     });
