@@ -6,4 +6,9 @@ table{
 tr{
     display: flex;
     justify-content: space-around;
+    transition: all 0.5s;
+}
+
+tr:hover{
+    transform: scale(1.1);
 }
