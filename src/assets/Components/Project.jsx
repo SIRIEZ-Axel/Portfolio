@@ -9,26 +9,26 @@ export default function Projects() {
                 <span className="border-solid border-b-2 w-44 border-cyan-600"></span>
             </div>
             <div className="flex justify-center items-center">
-                <table className="text-4xl w-11/12 ">
-                    <tr className="border-b-2 border-solid border-cyan-600 p-8  dark:text-white">
+                <table className="text-4xl w-11/12">
+                    <tr className="border-b-2 border-solid border-cyan-600 py-12  dark:text-white">
                         <th>Date</th>
                         <th>Project name</th>
                         <th>Tech used</th>
                         <th>type of projects</th>
                     </tr>
-                    <tr className="border-b-2 border-solid border-cyan-600 p-8 dark:text-white">
+                    <tr className="border-b-2 border-solid border-cyan-600 py-12 dark:text-white">
                         <td>td1</td>
                         <td>td2</td>
                         <td>td3</td>
                         <td>td4</td>
                     </tr>
-                    <tr className="border-b-2 border-solid border-cyan-600 p-8 dark:text-white">
+                    <tr className="border-b-2 border-solid border-cyan-600 py-12 dark:text-white">
                         <td>td1</td>
                         <td>td2</td>
                         <td>td3</td>
                         <td>td4</td>
                     </tr>
-                    <tr className="border-b-2 border-solid border-cyan-600 p-8 dark:text-white">
+                    <tr className="border-b-2 border-solid border-cyan-600 py-12 dark:text-white">
                         <td>td1</td>
                         <td>td2</td>
                         <td>td3</td>

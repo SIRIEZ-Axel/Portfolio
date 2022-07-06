@@ -3,7 +3,7 @@ nav ul li {
     z-index: 1;
     padding: 12px;
     transition: all ease .3s;
-    color: rgb(212, 212, 212);
+    color: #93C5FD;;
 }
 
 nav ul li:hover {
@@ -22,7 +22,7 @@ nav ul li:after {
     width: 100%;
     height: 1px;
     content: '.';
-    background: rgb(3, 97, 160);
+    background: #3371d3;
     border-radius: 8px;
     visibility: none;
     opacity: 0;
