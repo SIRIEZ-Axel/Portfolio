@@ -17,14 +17,14 @@ export default function Header() {
         <header>
             <nav className="fixed z-30 w-full duration-150" id="navbar">
                 <Nav />
-                <ul className="flex justify-evenly p-8 bg-gradient-to-r from-cyan-500 to-blue-500">
+                <ul className="flex justify-evenly p-8 bg-blue-500 dark:bg-gray-800">
                     <li className=" text-3xl cursor-pointer"
                     >My Projects</li>
-                    <li className=" text-3xl cursor-pointer"
+                    <li className="text-3xl cursor-pointer"
                     >My skills</li>
-                    <li className=" text-3xl cursor-pointer"
+                    <li className="text-3xl cursor-pointer"
                     >Contact</li>
-                    <li className=" text-3xl cursor-pointer"
+                    <li className="text-3xl cursor-pointer"
                     >About</li>
                 </ul>
             </nav>
