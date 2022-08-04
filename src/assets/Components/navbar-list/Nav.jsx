@@ -4,7 +4,7 @@ export default function Nav() {
       const [colorTheme, setTheme] = useDarkMode();
       return (
             <div>
-                  <span onClick={() => setTheme(colorTheme)} className="absolute h-10 w-10 top-8 right-4 bg-indigo-500 block rounded-full cursor-pointer mr-6 text-white flex items-center justify-center hover:bg-cyan-400">
+                  <span onClick={() => setTheme(colorTheme)} className="absolute h-10 w-10 top-5 left-5 bg-indigo-500 block rounded-full cursor-pointer mr-6 text-white flex items-center justify-center hover:bg-cyan-400">
                         {colorTheme === "light" ?
                               <svg
                                     xmlns="http://www.w3.org/2000/svg"

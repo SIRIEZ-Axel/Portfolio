@@ -1,5 +1,5 @@
-import Webdev from "../img/web-dev-light.png"
-import Animals from "../img/animals.png"
+import Webdev from "./img/web-dev-light.png"
+import Animals from "./img/animals.png"
 import { useRef } from "react"
 
 export default function About(ref) {
@@ -9,7 +9,7 @@ export default function About(ref) {
             <div className="h-screen flex">
                 <div className="w-1/2 flex justify-center items-center ">
                         <span className="border-solid border-b-2 w-44 border-cyan-600 "></span>
-                        <h2 className="text-6xl dark:text-white duration-500 ml-8">About me</h2>
+                        <h2 className="text-5xl dark:text-white duration-500 ml-8">About me</h2>
                 </div>
                 <div className="w-1/2 flex flex-col items-center justify-center gap-12">
                     <p className="w-2/4 text-2xl text-white duration-500 bg-cyan-500 rounded-md p-6 px-10 shadow-2xl leading-10 hover:scale-110">

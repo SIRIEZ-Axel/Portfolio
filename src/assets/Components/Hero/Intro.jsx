@@ -1,20 +1,18 @@
-import Header from "./Header";
-import Hand from "../img/hand.png"
-import Facebook from "../img/facebook.png"
-import Linkedin from "../img/linkedin.png"
-import Github from "../img/github.png"
-import Profil from "../img/profil.jpg"
+import Hand from "./img/hand.png"
+import Facebook from "./img/facebook.png"
+import Linkedin from "./img/linkedin.png"
+import Github from "./img/github.png"
+import Profil from "./img/profil.jpg"
 
 export default function Intro() {
     return (
         <div >
-            <Header />
             <div className="h-screen absolute flex items-center left-28">
                 <div className="border-solid border-slate-800 border-4 rounded-full dark:border-white duration-300 hover:scale-110 ">
-                    <img src={Profil} width="400" alt="photo de profil" className="rounded-full" />
+                    <img src={Profil} width="400" alt="photo de profil" className="rounded-full " />
                 </div>
             </div>
-            <div className="h-screen flex flex-col items-center justify-center gap-8">
+            <div className="h-screen flex flex-col items-center justify-center gap-8 ">
                 <div>
                     <h2 className="text-6xl flex hover:scale-150 hover:bg-slate-200 hover:dark:bg-slate-600 p-4 rounded-xl duration-300 dark:text-white">Hello <img src={Hand} alt="hello" width="60px" /> ,</h2>
                 </div>

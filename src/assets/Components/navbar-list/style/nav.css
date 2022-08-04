@@ -1,7 +1,7 @@
 nav ul li {
     position: relative;
     z-index: 1;
-    padding: 12px;
+    padding: 10px;
     transition: all ease .3s;
     color: #93C5FD;;
 }

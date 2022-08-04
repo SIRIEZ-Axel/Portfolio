@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Footer from "../Footer/Footer";
 
 export default function Contact() {
     const [email, setEmail] = useState("");
@@ -8,7 +9,7 @@ export default function Contact() {
     return (
         <div className="h-screen">
             <div className="w-11/12 flex items-center pt-36 mb-24">
-                <h2 className="text-6xl dark:text-white duration-500 px-8">Contact</h2>
+                <h2 className="text-5xl dark:text-white duration-500 px-8">Contact</h2>
                 <span className="border-solid border-b-2 w-44 border-cyan-600 "></span>
             </div>
             <div class="w-full md:w-96 md:max-w-full mx-auto shadow-xl">
@@ -46,7 +47,7 @@ export default function Contact() {
                                         p-3"
                                 placeholder="joe.bloggs@example.com"
                                 required
-                                onChange = {e => setEmail({email: e.target.value})}
+                                onChange={e => setEmail({ email: e.target.value })}
 
                             />
                         </label>
@@ -64,7 +65,7 @@ export default function Contact() {
                                         p-3"
                                 rows="3"
                                 placeholder="Tell us what you're thinking about..."
-                                onChange = {e => setMessage({message: e.target.value})}
+                                onChange={e => setMessage({ message: e.target.value })}
 
                             ></textarea>
                         </label>
@@ -87,7 +88,6 @@ export default function Contact() {
                     </form>
                 </div>
             </div>
-
         </div>
     )
 }
